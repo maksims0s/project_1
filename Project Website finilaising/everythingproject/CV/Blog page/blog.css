@@ -1,0 +1,308 @@
+/* Blog */
+
+body {
+    margin: 0
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg,  #ff2828 0%,#5e0600 100%,#f7f7f7 100%,#f7f7f7 100%,#2989d8 100%);
+    font-size: 64px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to bottom,  #207cca 0%,#f7f7f7 100%,#f7f7f7 100%,#f7f7f7 100%,#2989d8 100%);
+    padding: 20px 50px;
+}
+
+nav {
+    display: table;
+    height: 100px;
+}
+
+nav ul {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 50px
+}
+
+nav ul li {
+    float: left;
+    padding: 20px
+}
+
+
+.content, footer {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#main {
+    background: #ebebeb;
+    padding: 40px 0;
+}
+
+a img {
+    width: 300px;
+    height: 250px;
+}
+
+#main .articles {
+    float: left;
+    width: 700px;
+}
+
+#main .articles .inner {
+    padding: 20px;
+}
+
+#main article {
+    margin-bottom: 20px;
+    background: white;
+}
+
+#main article h2 {
+    margin: 0 0 20px
+}
+
+#main .articles .excerpt {
+    float: right;
+    width: 340px
+}
+
+#main .articles .bottom {
+    border-top: 1px solid #999;
+    color: #999;
+    padding: 5px 0;
+    float: left;
+    width: 100%;
+
+}
+
+#main .articles .bottom > div {
+    float: left;
+    padding: 20px;
+}
+
+#main .articles .bottom .comment {
+    float: right;
+
+}
+
+#main .sidebar {
+    float: right;
+    width: 260px;
+    min-height: 100px;
+    background-color: white;
+    padding: 20px
+}
+
+#main .sidebar form {
+    position: relative;
+}
+
+#main .sidebar input {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid #ddd;
+    width: 190px
+}
+
+#main .sidebar input[type=submit] {
+    background:  url(search_icon.jpg);
+    text-indent: -99999px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 0;
+    top: 5px;
+    right: 0;
+
+}
+
+#main .sidebar a{
+    color: #158ebf
+}
+
+#main .sidebar ul li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+#main .sidebar ul li:last-child {
+    padding: 10px 0px;
+    border-bottom: none;
+}
+
+#main .sidebar h3 {
+    margin: 40px 0px 20px
+}
+
+footer {
+    padding: 20px
+}
+
+footer .copyright{
+    float: left;
+}
+
+footer .contact{
+    float: right;
+}
+
+footer a {
+    color: #158
+}
+
+
+/* Single post page */
+
+#main .single-post{
+    float: left;
+    width: 660px;
+    padding: 20px;
+    background: white;
+}
+
+#main h1 {
+    margin: 0 0 20px;
+    font-size: 45px;
+}
+
+.comments {
+    margin-top: 50px;
+    background: white;
+    width: 660px;
+    padding: 0 20px 20px 20px;
+}
+
+.comments .single-comments {
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 20px;
+    padding: 10px 0
+}
+
+#main .comments img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px ;
+}
+
+.comments .avatar{
+    float: left;
+    padding: 0 10px
+}
+
+.comments .name-and-text{
+    float: left;
+    width: 500px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+h3.add-comment {
+    margin-top: 50px;
+}
+
+.comments label{
+    display: inline-block;
+    width: 100px;
+
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+}
+
+form .input-row{
+    margin: 5px 0
+}
+
+form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    padding: 10px
+
+}
+
+form input[type=submit]{
+    font-size: 20px;
+    color: #5c5c5c;
+    width: auto;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom,  #2989d8 0%,#f7f7f7 0%,#f7f7f7 0%,#f7f7f7 0%,#ebebeb 97%,#ebebeb 99%,#ebebeb 99%,#207cca 100%);
+
+}
+
+form input[type=submit]:hover{
+    background: linear-gradient(to bottom,  #207cca 0%,#ebebeb 1%,#ebebeb 1%,#ebebeb 3%,#f7f7f7 100%,#f7f7f7 100%,#f7f7f7 100%,#2989d8 100%);
+}
+
+
+/* Contact */
+.contact{
+    background: white;
+    padding: 20px;
+
+}
+
+.contact form{
+    float:left;
+    width: 600px;
+    margin-right: 50px
+}
+
+.contact address{
+    float:left;
+}
+
+.contact address .company{
+    font-size: 30px;
+    margin-bottom: 25px
+}
+
+.contact form input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact address a {
+    color: blue
+}

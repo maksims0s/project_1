@@ -1,0 +1,72 @@
+#wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, select, button{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: auto;
+    height: auto;
+    margin: 0 5px 0 10px
+
+}
+
+.input-row{
+    margin: 0 0 10px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+label.block {
+    display:block;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+label[for=language] {
+    vertical-align: middle;
+    line-height:88 px;
+}
+
+#language {
+    height:auto;
+    vertical-align: middle
+}
+
+fieldset {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#choices label {
+    width:auto;
+    margin-right: 20px;
+}
+
+.buttons input, .buttons button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #5c5c5c;
+    border: 1px solid #dedede;
+    line-height: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #f7f7f7, #ebeb)
+}
+
+.buttons input:hover, .buttons button:hover {
+    background-image: linear-gradient(to bottom, #ebeb, #f7f7f7)
+}
